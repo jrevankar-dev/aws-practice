@@ -1,0 +1,27 @@
+yum install git -y
+git status
+git init
+git config --list
+
+git status
+git config --global user.name "jrevankar-dev"
+git config --global user.email "jayanthrevankar@yahoo.co.in"
+git config --list
+
+git remote add origin https://github.com/jrevankar-dev/aws-practice.git
+git remote -v
+git pull origin https://github.com/jrevankar-dev/aws-practice.git
+git fetch
+git status
+git push -u origin main
+git pull --rebase origin main
+
+git clone https://github.com/rashmigmr13-eng/gen-ai.git
+git branch
+git branch staging
+git branch
+git checkout staging
+vi test
+git add test 
+git commit -m "New_branch_new_commit"
+git push origin staging
